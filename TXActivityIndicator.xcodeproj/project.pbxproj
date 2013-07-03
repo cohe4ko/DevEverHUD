@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA68F061178419F60069DAA1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FA68F05C178419F60069DAA1 /* MBProgressHUD.m */; };
+		FA68F062178419F60069DAA1 /* TXActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA68F05E178419F60069DAA1 /* TXActivityIndicator.m */; };
+		FA68F063178419F60069DAA1 /* UIImage+BBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FA68F060178419F60069DAA1 /* UIImage+BBlock.m */; };
 		FAC622A1172E30E1008B57A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC622A0172E30E1008B57A2 /* UIKit.framework */; };
 		FAC622A3172E30E1008B57A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC622A2172E30E1008B57A2 /* Foundation.framework */; };
 		FAC622A5172E30E1008B57A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC622A4172E30E1008B57A2 /* CoreGraphics.framework */; };
@@ -18,9 +21,16 @@
 		FAC622B7172E30E2008B57A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC622B6172E30E2008B57A2 /* Default-568h@2x.png */; };
 		FAC622BA172E30E2008B57A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC622B9172E30E2008B57A2 /* ViewController.m */; };
 		FAC622BD172E30E2008B57A2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC622BB172E30E2008B57A2 /* ViewController.xib */; };
+		FAC622C7172E3E71008B57A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC622C6172E3E71008B57A2 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA68F05B178419F60069DAA1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FA68F05C178419F60069DAA1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FA68F05D178419F60069DAA1 /* TXActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXActivityIndicator.h; sourceTree = "<group>"; };
+		FA68F05E178419F60069DAA1 /* TXActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXActivityIndicator.m; sourceTree = "<group>"; };
+		FA68F05F178419F60069DAA1 /* UIImage+BBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BBlock.h"; sourceTree = "<group>"; };
+		FA68F060178419F60069DAA1 /* UIImage+BBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BBlock.m"; sourceTree = "<group>"; };
 		FAC6229D172E30E1008B57A2 /* TXActivityIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXActivityIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC622A0172E30E1008B57A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAC622A2172E30E1008B57A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +47,7 @@
 		FAC622B8172E30E2008B57A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FAC622B9172E30E2008B57A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAC622BC172E30E2008B57A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FAC622C6172E3E71008B57A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC622C7172E3E71008B57A2 /* QuartzCore.framework in Frameworks */,
 				FAC622A1172E30E1008B57A2 /* UIKit.framework in Frameworks */,
 				FAC622A3172E30E1008B57A2 /* Foundation.framework in Frameworks */,
 				FAC622A5172E30E1008B57A2 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +65,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA68F05A178419F60069DAA1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA68F05B178419F60069DAA1 /* MBProgressHUD.h */,
+				FA68F05C178419F60069DAA1 /* MBProgressHUD.m */,
+				FA68F05D178419F60069DAA1 /* TXActivityIndicator.h */,
+				FA68F05E178419F60069DAA1 /* TXActivityIndicator.m */,
+				FA68F05F178419F60069DAA1 /* UIImage+BBlock.h */,
+				FA68F060178419F60069DAA1 /* UIImage+BBlock.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		FAC62294172E30E1008B57A2 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +98,7 @@
 		FAC6229F172E30E1008B57A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAC622C6172E3E71008B57A2 /* QuartzCore.framework */,
 				FAC622A0172E30E1008B57A2 /* UIKit.framework */,
 				FAC622A2172E30E1008B57A2 /* Foundation.framework */,
 				FAC622A4172E30E1008B57A2 /* CoreGraphics.framework */,
@@ -83,6 +109,7 @@
 		FAC622A6172E30E1008B57A2 /* TXActivityIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				FA68F05A178419F60069DAA1 /* Source */,
 				FAC622AF172E30E1008B57A2 /* AppDelegate.h */,
 				FAC622B0172E30E1008B57A2 /* AppDelegate.m */,
 				FAC622B8172E30E2008B57A2 /* ViewController.h */,
@@ -176,6 +203,9 @@
 				FAC622AD172E30E1008B57A2 /* main.m in Sources */,
 				FAC622B1172E30E1008B57A2 /* AppDelegate.m in Sources */,
 				FAC622BA172E30E2008B57A2 /* ViewController.m in Sources */,
+				FA68F061178419F60069DAA1 /* MBProgressHUD.m in Sources */,
+				FA68F062178419F60069DAA1 /* TXActivityIndicator.m in Sources */,
+				FA68F063178419F60069DAA1 /* UIImage+BBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TXActivityIndicator/TXActivityIndicator-Prefix.pch";
 				INFOPLIST_FILE = "TXActivityIndicator/TXActivityIndicator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +305,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TXActivityIndicator/TXActivityIndicator-Prefix.pch";
 				INFOPLIST_FILE = "TXActivityIndicator/TXActivityIndicator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +330,7 @@
 				FAC622C2172E30E2008B57A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TXActivityIndicator.h"
+#import "MBProgressHUD.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>{
+    TXActivityIndicator *activityIndicator;
+    MBProgressHUD *_progressHud;
+}
 
 @end
